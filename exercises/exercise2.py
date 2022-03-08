@@ -29,27 +29,43 @@ simple()
 
 
 def simple2():
-    message = 2
-    print(message)
+    message3 = "I am trying this again"
+    print(message3)
+    message3 = "With a fresh mindset"
+    print(message3)
+    message3 = "I hope this counts, even though its not labeled message :)"
+    print(message3)
+    message3 = "Because technically speaking, message3 is still a variable" \
+               " with a print function 4 times ;)"
+    print(message3)
+# When you move past in defeat but still keep moving on & that eureka moment hit
 
 
 simple2()
 
-# Stuck On Example 2
-# I have no clue I spent 3 hours these instructions don't make sense
-# I dont get how I'm supposed to change the message without losing the print
-# variable.
-# As for right now im just turning in as is, I don't have enough time left
-# in the unit to dwell on one question for 3 hours,Moving on to All About Data
+
+def message4(arg1):
+    """User entered incorrect password information"""
+    message4 = 'Wrong Passcode Entered'
+    print(message4)
+    print(arg1)
+
+(arg1) = 'Use 2-Step Verification'
 
 
-def message(firstname,lastname):
+message4(arg1)
+
+
+
+
+
+def message5(firstname, lastname):
     """Print their last name first if given"""
-    print(lastname,firstname)
+    print(lastname, firstname)
 
 
-message("James","Nguyen")
+message5("James", "Nguyen")
 
 
-
-
+# This was my initial answer, but it didn't fit the conditions because it has 2
+# arguments.

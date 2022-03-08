@@ -9,3 +9,11 @@ print("Hello World")
 
 # A basic string can be defined using either single or double quotes.
 print('Hello Again')
+
+
+def greet_user(username):
+    """Display a simple greeting."""
+    print(f"Hello, {username.title()}!")
+
+
+greet_user('James')
