@@ -224,11 +224,29 @@ nonfactual_not_in('your')
 
 # 3
 
+def arithmetic_operators(arg1, arg2):
+    result_exponent = arg1 ** 2
+    print(result_exponent)
+    result_floor = arg2 // arg1
+    print(result_floor)
 
 
+arithmetic_operators(5, 25 )
 
 
+# Assignment Operators
+def assignment_operators(value):
+    modulus_equals = value % 6
+    print(modulus_equals)
+    minus_equals = value - 4
+    print(minus_equals)
+    exponent_equals = value ** 3
+    print(exponent_equals)
+    plus_equals = value + 4
+    print(plus_equals)
 
+
+assignment_operators(37)
 
 
 
